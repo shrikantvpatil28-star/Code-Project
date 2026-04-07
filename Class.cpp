@@ -7,13 +7,13 @@ private:
     int age;
 
 public:
-    // Setter function
+
     void setData(string n, int a) {
         name = n;
         age = a;
     }
 
-    // Getter function
+    
     void display() {
         cout << "Name: " << name << endl;
         cout << "Age: " << age << endl;
@@ -21,7 +21,7 @@ public:
 };
 
 int main() {
-    Student s1;          // Object creation
+    Student s1;          
     s1.setData("John", 20);
     s1.display();
 
