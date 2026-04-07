@@ -7,19 +7,19 @@ private:
     int age;
 
 public:
-    // Default Constructor
+   
     Student() {
         name = "Unknown";
         age = 0;
     }
 
-    // Constructor with one parameter
+    
     Student(string n) {
         name = n;
         age = 0;
     }
 
-    // Constructor with two parameters
+ 
     Student(string n, int a) {
         name = n;
         age = a;
@@ -31,9 +31,9 @@ public:
 };
 
 int main() {
-    Student s1;                // Default constructor
-    Student s2("Alice");       // One parameter constructor
-    Student s3("Bob", 20);     // Two parameter constructor
+    Student s1;                
+    Student s2("Alice");      
+    Student s3("Bob", 20);   
 
     s1.display();
     s2.display();
