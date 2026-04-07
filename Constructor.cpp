@@ -7,7 +7,7 @@ private:
     int age;
 
 public:
-    // Constructor
+    
     Student(string n, int a) {
         name = n;
         age = a;
@@ -20,7 +20,7 @@ public:
 };
 
 int main() {
-    Student s1("Alice", 21);  // Constructor called automatically
+    Student s1("Alice", 21); 
     s1.display();
 
     return 0;
