@@ -10,13 +10,13 @@ public:
         x = a;
     }
 
-    // Declare friend function
+    
     friend void show(Sample s);
 };
 
-// Define friend function outside class
+
 void show(Sample s) {
-    cout << "Value of x: " << s.x << endl;  // Access private member
+    cout << "Value of x: " << s.x << endl;  
 }
 
 int main() {
